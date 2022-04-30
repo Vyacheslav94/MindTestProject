@@ -1,0 +1,89 @@
+body {
+    background: #ffffff;
+}
+aside {
+    float: left;
+    background: #006599;
+    width: 30%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #fff;
+    border-right: 5px solid #4d4d4d;
+}
+
+aside img {
+    display: flex;
+    vertical-align: middle;
+    margin-top: 40px;
+    width: 180px;
+    float: left;
+    border-style: none;
+}
+aside .logo {
+    display: flex;
+    font-size: 40px;
+}
+
+aside h3 {
+    margin-top: 200px;
+    font-size: 30px;
+
+}
+aside h2 {
+    display: flex;
+    margin-left: -100px;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    text-align: center!important;
+}
+aside ul {list-style: none}
+aside ul li {
+    color: #fff;
+    display: block;
+    margin-top: 10px;
+    transition: transform .6s ease;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: #5fb8ff;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+main .features {
+    float: left;
+    color: #70001;
+    margin-top: 50px;
+    margin-left: 200px;
+    text-align: center!important;
+    width: 50%;
+
+}
+main .features h1 {font-size: 50px; }
+main .features p {max-width: 400 px;}
+
+main img {
+    display: flex;
+    vertical-align: middle;
+    margin-top: -1px;
+    width: 70%;
+}
+
+main .button1 {
+    background-color: #17a2b8;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+main .button2 {
+    background-color: #17a2b8;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}

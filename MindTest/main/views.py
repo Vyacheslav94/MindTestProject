@@ -13,3 +13,6 @@ def personal(request):
 
 def library(request):
     return render(request, 'main/library.html')
+
+def creation(request):
+    return render(request, 'main/creation.html')
