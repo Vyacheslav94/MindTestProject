@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'main/css/main.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<body>
+    <aside>
+        <img src="{% static 'main/img/logotype.png' %}" alt="Logo">
+        <h2><span class="logo">MindTest</span></h2>
+        <h3>Навигация</h3>
+        <ul>
+            <a href="{% url 'home' %}"><li></i>Главная страница</li></a>
+            <a href="{% url 'personal' %}"><li>Личный кабинет</li></a>
+            <a href="{% url 'library' %}"><li>Библиотека</li></a>
+            <a href="{% url 'about' %}"><li>О нас</li></a>
+        </ul>
+    </aside>
+    <main>
+        <div class="uCalc_400469"></div>
+        <script> var widgetOptions400469 = { bg_color: "transparent" }; (function() { var a = document.createElement("script"), h = "head"; a.async = true; a.src = (document.location.protocol == "https:" ? "https:" : "http:") + "//ucalc.pro/api/widget.js?id=400469&t="+Math.floor(new Date()/18e5); document.getElementsByTagName(h)[0].appendChild(a) })();</script>
+    </main>
+
+</body>
+</html>

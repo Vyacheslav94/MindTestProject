@@ -16,3 +16,6 @@ def library(request):
 
 def creation(request):
     return render(request, 'main/creation.html')
+
+def creation_test(request):
+    return render(request, 'main/creation_test.html')

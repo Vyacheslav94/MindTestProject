@@ -21,6 +21,7 @@ aside img {
 }
 aside .logo {
     display: flex;
+    padding: 3%;
     font-size: 40px;
 }
 
